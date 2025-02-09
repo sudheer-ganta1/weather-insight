@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="public/style.css" />
+  </head>
+  <body>
+    <div class="glass-container">
+      <h1>Weather App</h1>
+      <form id="weather-form" onsubmit="handleSubmit(event)">
+        <input
+          type="text"
+          name="CityName"
+          placeholder="Enter city name"
+          required
+        />
+        <button type="submit">Get Weather</button>
+      </form>
+      <div id="weather-output"></div>
+    </div>
+
+    <script src="style.js"></script>
+  </body>
+</html>
